@@ -1,0 +1,74 @@
+body{
+    margin:0;
+    font-family:Arial;
+    background:#fff0f5;
+    color:#333;
+}
+
+/* HEADER */
+header{
+    text-align:center;
+    padding:30px;
+    background:white;
+}
+
+/* SEARCH */
+.search-box{
+    text-align:center;
+    margin:20px;
+}
+
+.search-box input{
+    padding:10px;
+    width:60%;
+    border-radius:10px;
+    border:1px solid #ff69b4;
+}
+
+/* PROFILE */
+.profile{
+    text-align:center;
+    padding:20px;
+}
+
+.profile img{
+    width:150px;
+    height:150px;
+    border-radius:50%;
+    object-fit:cover;
+    border:3px solid pink;
+}
+
+/* SECTIONS */
+section{
+    background:white;
+    margin:20px;
+    padding:20px;
+    border-radius:15px;
+}
+
+/* BLOG */
+.article{
+    border-left:4px solid pink;
+    padding:10px;
+    margin:10px 0;
+}
+
+/* SKILLS */
+.skills ul{
+    list-style:none;
+    padding:0;
+}
+
+.skills li{
+    background:#ffe4ec;
+    display:inline-block;
+    padding:8px 12px;
+    margin:5px;
+    border-radius:10px;
+}
+
+/* CONTACT */
+.contact{
+    text-align:center;
+}
